@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Listas</title>
+</head>
+<body>
+	<h1>Trabalhando com listas</h1>
+	<h2>Listas Ordenadas</h2>
+	<!--
+		1 - Acordar
+		2 - Tomar banho
+		...
+	-->
+	<ol type="I" start="3"> <!-- 1 A a i i -->
+		<li>Acordar</li>
+		<li>Tomar banho</li>
+		<li>Jogar Minecraft</li>
+		<li>Escovar o dente</li> <!-- A partir do HTML5 o </li> é opcional -->
+	</ol> 
+	<h2>Listas não Ordenadas</h2>
+	<!-- Sem ordem especifica -->
+	<ul type="square"> <!-- disc circle square -->
+		<li>Pão</li>
+		<li>Manteiga</li>
+		<li>Leite</li>
+		<li>Dormir</li>
+	</ul>
+	<h2>Minhas linguagens favoritas</h2>
+	<ol>
+		<li>Antigas</li>
+		<ol type="a">
+			<li>PHP</li>
+			<li>LUA</li>
+		</ol>
+		<li>Novas</li>
+		<ol type="a" start="3">
+			<li>Rust</li>
+			<li>JavaScript</li>
+		</ol>
+	</ol>
+	<h2>Meus jogos favoritos</h2>
+	<ol>
+		<li>Playstation</li>
+		<ul type="disc">
+			<li>God of War</li>
+			<li>Homem aranha</li>
+		</ul>
+		<li>Xbox</li>
+		<ul type="disc">
+			<li>Minecraft</li>
+			<li>Elden ring</li>
+		</ul>
+		<li>Nintendo</li>
+		<ul type="disc">
+			<li>Mario</li>
+			<ul type="circle">
+				<li>Mario bros 3</li>
+				<li>Mario: Lost Levels</li>
+			</ul>
+			<li>Sonic</li>
+		</ul>
+	</ol>
+	<h2>Lista de Definições</h2>
+	<dl>
+		<dt>Termo</dt>
+		<dd>Descrição</dd>
+		<dr>HTML</dr>
+		<dd>Linguagem de marcação para criação de conteúdo de um site.</dd>
+		<dr>CSS</dr>
+		<dd>Linguagem de marcação para criação do design de um site.</dd>
+		<dr>JavaScript</dr>
+		<dd>Linguagem de progração para a criação de interatividade de um site</dd>
+	</dl>
+</body>
+</html>

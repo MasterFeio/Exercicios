@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Imagens dinamica</title>
+</head>
+<body>
+	<h1>Imagem dinâmica</h1>
+	<p>Tente abrir esse site em vários dispositivos diferentes.</p>
+
+	<picture>
+		<source media="(max-width: 750px)" srcset="img/p.png" type="image/png">
+		<source media="(max-width: 1050px)" srcset="img/m.png" type="image/png"> <!--1000 ou 1050px --> <!-- Imagem média-->
+		<img src="img/g.png" alt="Imagem flexível"> <!-- Começa com a imagem grande para a menor -->
+	</picture>
+	<h1>Reproduzindo Áudio</h1>
+	<p>Vamos aprender a reproduzir audios em HTML5.</p>
+	<audio src="midia/alok.mp3" autoplay controls></audio> <!-- Primeira opção --> <!-- MP3 WAV OGG -->
+
+	<audio preload="metadata" autoplay controls>
+		<source src="midia/alok.mp3" type="audio/mpeg">
+		<source src="midia/alok.ogg" type="audio/ogg">
+	    <source src="midia/alok.wav" type="audio/wav"> <!-- Evitar wav aquivos muito grandes. -->
+	    <p>Infelizmente seu navegador bão consegue reproduzir áudio <a href="midia/alok.mp3">Clique aqui para baixar o arquivo em mp3</a></p>
+	</audio>
+</body>
+</html>

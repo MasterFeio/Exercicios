@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fontes em CSS</title>
+	<style>
+		body {
+			/*Sempre termine com uma generica para evitar erros, 2 fontes e uma generica para evitar problemas.*/
+			/*font-family: Arial, Helvetica, sans-serif;*/
+			/*
+			{} - São as mais recomendadas
+			Medidas Absolutas:
+			cm, mn, in, {px}, pt, pc
+
+			Medidas Relativas
+			{em}, ex, rem, vw, vh, %
+
+			16px geralmente = 1em
+			*/
+			/*font-size: 16px;*/
+			/*font-family: Arial;
+			font-weight: 400;
+			font-style: italic;
+			text-decoration: underline;*/
+			/* lighter normal bold bolder (100 - 900)*/
+			font-size: 1em;
+		}
+		h1 {
+			/*font-family: 'Work Sans', sans-serif;
+			font-weight: BOLDER;
+			font-style: italic;*/
+
+			/* shorthand font 
+			-> font-style -> font-weight -> font-size -> font-family */
+			font: italic bolder 3em 'Works Sans', sans-serif;
+		}
+		/*h1, h2 {
+			font-family: "Times New Roman", Times, serif;
+		}*/
+		h2 {
+			font: bold 2em 'Work Sans';
+		}
+	</style>
+</head>
+<body>
+	<h1>Trabalhando com fontes</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+	<h2>Subtítulo do exercicio</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>

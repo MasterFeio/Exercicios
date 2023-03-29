@@ -1,0 +1,31 @@
+Harmonia entre as cores, Círculo Cromático.
+
+Cores Primárias:
+Amarelo
+Vermelho
+Azul
+
+Cores Secundárias:
+Laranja
+Violeta
+Verde
+
+Cores Terciárias:
+Todas as outras
+Amarelo-arroxeado
+
+Geralmente uma paleta de cores tem de três até cinco no maximo. Brano e preto são cores que não entram na paleta de cores.
+
+Cores complementares.
+Cores análogas.
+Cores análogas relacionadas.
+Cores intercaladas.
+Cores triádica.
+Cores em Quadrado.
+Cores tetrádicas.
+Monocronia.
+
+ferramentas:
+color.adobe.com
+paletton.com
+coolors.co
