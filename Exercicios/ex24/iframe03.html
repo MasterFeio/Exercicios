@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 97vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo numquam debitis pariatur, rem nisi ipsa vel eius nulla sint quidem non facere porro odio exercitationem beatae, doloremque neque voluptas in!</p>
+
+    <ul>
+        <li><a href="pag01.html" target="frame">Primeira página</a></li>
+        <li><a href="#" target="frame">Segunda página</a></li>
+        <li><a href="#" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid itaque asperiores, aperiam sed nam minus laborum consequuntur minima corrupti nemo veritatis iure. Quisquam voluptatibus beatae pariatur corrupti excepturi suscipit labore?</p>
     
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non adipisci corporis saepe, eum, nesciunt magnam maxime placeat enim quis, rem distinctio dolorem. Animi alias odio sint facilis facere. Magni, deserunt.</p><img src='./img/masterfeio.png' alt='GitHub do Master'></iframe>" id="tela" name="frame">Navegador incompativel</iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, id consequatur. Illum necessitatibus assumenda adipisci totam beatae quis obcaecati iste nihil nulla dolorem vel explicabo dolorum in earum, tempore labore?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, fuga reprehenderit. Repellat repudiandae necessitatibus deleniti distinctio sed natus adipisci eveniet labore, beatae, qui et neque delectus, dolorum voluptas quis odio?</p>
 </body>
 </html>
