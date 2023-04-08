@@ -9,7 +9,31 @@
 <body>
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="GET" autocomplete="on">
-
+        <p>
+            <label for="id-est">Estado: </label>
+            <select name="est" id="id-est">
+                <optgroup label="Região Tal">
+                    <option value="RJ">Rio de janeiro</option>
+                    <option value="RN" selected>Rio Grande do Norte</option>
+                </optgroup>
+                
+                <option value="RJ">Rio de janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </select>
+        </p>
+        <p>
+            <label for="id-prof">Profissão: </label>
+            <input type="text" name="prof" id="id-prof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="MOD">Moderador</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="id-msg">Mensagem: </label>
+            <textarea name="msg" id="id-msg" cols="30" rows="10" placeholder="Escreva a sua mensagem"></textarea>
+        </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
